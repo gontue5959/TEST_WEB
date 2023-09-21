@@ -3,7 +3,7 @@
     <title>居米股市交易室1</title>
     <link href="https://gontue5959.github.io/TEST_WEB/feed.xml" rel="self" />
     <link href="https://gontue5959.github.io/TEST_WEB" />
-    <updated>2023-09-21T20:52:42+08:00</updated>
+    <updated>2023-09-21T20:57:59+08:00</updated>
     <author>
         <name>居米Jimmy</name>
     </author>
@@ -16,8 +16,9 @@
         </author>
         <link href="https://gontue5959.github.io/TEST_WEB/ru-he-kai-shi-guan-jian-fen-dian-jiao-yi.html"/>
         <id>https://gontue5959.github.io/TEST_WEB/ru-he-kai-shi-guan-jian-fen-dian-jiao-yi.html</id>
+            <category term="關鍵分點週報"/>
 
-        <updated>2023-09-21T20:49:02+08:00</updated>
+        <updated>2023-09-21T20:57:59+08:00</updated>
             <summary>
                 <![CDATA[
                     什麼是關鍵分點 這裡會完整的交會你 123121231321 12132132121321
@@ -41,8 +42,9 @@
         </author>
         <link href="https://gontue5959.github.io/TEST_WEB/kai-hu-jiao-xue.html"/>
         <id>https://gontue5959.github.io/TEST_WEB/kai-hu-jiao-xue.html</id>
+            <category term="關鍵分點週報"/>
 
-        <updated>2023-09-21T20:52:42+08:00</updated>
+        <updated>2023-09-21T20:57:53+08:00</updated>
             <summary>
                 <![CDATA[
                     在這段代碼中，我使用了 post.link_flair_text 來獲取每個帖子的flair，並將其添加到新的「Flair」欄位中。其他部分沒有變動。請確定替換代碼中的 YOUR_CLIENT_ID、YOUR_CLIENT_SECRET、YOUR_USER_AGENT 以及 SUBREDDIT_NAME 為你的真實值。 import praw import pandas as pd from datetime import datetime # 初始化Reddit物件 reddit&hellip;
