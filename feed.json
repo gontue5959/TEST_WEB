@@ -16,6 +16,7 @@
             "title": "如何開始關鍵分點交易",
             "summary": "什麼是關鍵分點 這裡會完整的交會你 123121231321 12132132121321",
             "content_html": "<h1>什麼是關鍵分點</h1>\n<p class=\"msg msg--highlight \">這裡會完整的交會你</p>\n<p class=\"dropcap\">123121231321</p>\n<p> </p>\n<p class=\"msg msg--success\">12132132121321</p>\n<p> </p>",
+            "image": "https://gontue5959.github.io/TEST_WEB/media/posts/1/Frame-11.png",
             "author": {
                 "name": "居米Jimmy"
             },
@@ -23,7 +24,7 @@
                    "關鍵分點週報"
             ],
             "date_published": "2023-09-21T20:49:02+08:00",
-            "date_modified": "2023-09-21T20:57:59+08:00"
+            "date_modified": "2023-09-21T21:13:28+08:00"
         },
         {
             "id": "https://gontue5959.github.io/TEST_WEB/kai-hu-jiao-xue.html",
@@ -31,6 +32,7 @@
             "title": "開戶教學",
             "summary": "在這段代碼中，我使用了 post.link_flair_text 來獲取每個帖子的flair，並將其添加到新的「Flair」欄位中。其他部分沒有變動。請確定替換代碼中的 YOUR_CLIENT_ID、YOUR_CLIENT_SECRET、YOUR_USER_AGENT 以及 SUBREDDIT_NAME 為你的真實值。 import praw import pandas as pd from datetime import datetime # 初始化Reddit物件 reddit&hellip;",
             "content_html": "<p class=\"msg msg--highlight \">在這段代碼中，我使用了 <code>post.link_flair_text</code> 來獲取每個帖子的flair，並將其添加到新的「Flair」欄位中。其他部分沒有變動。請確定替換代碼中的 <code>YOUR_CLIENT_ID</code>、<code>YOUR_CLIENT_SECRET</code>、<code>YOUR_USER_AGENT</code> 以及 <code>SUBREDDIT_NAME</code> 為你的真實值。</p>\n<p class=\"msg msg--success\"><span class=\"hljs-keyword\">import</span> praw <span class=\"hljs-keyword\">import</span> pandas <span class=\"hljs-keyword\">as</span> pd <span class=\"hljs-keyword\">from</span> datetime <span class=\"hljs-keyword\">import</span> datetime <span class=\"hljs-comment\"># 初始化Reddit物件</span> reddit = praw.Reddit( client_id=<span class=\"hljs-string\">\"YOUR_CLIENT_ID\"</span>, client_secret=<span class=\"hljs-string\">\"YOUR_CLIENT_SECRET\"</span>, user_agent=<span class=\"hljs-string\">\"YOUR_USER_AGENT\"</span> ) <span class=\"hljs-comment\"># 建立一個空的DataFrame資料結構</span> data = { <span class=\"hljs-string\">'Title'</span>: [], <span class=\"hljs-string\">'Content'</span>: [], <span class=\"hljs-string\">'Image URL'</span>: [], <span class=\"hljs-string\">'Post URL'</span>: [], <span class=\"hljs-string\">'Posted Time'</span>: [], <span class=\"hljs-string\">'Upvotes'</span>: [], <span class=\"hljs-string\">'Number of Comments'</span>: [], <span class=\"hljs-string\">'Flair'</span>: [] <span class=\"hljs-comment\"># 新增Flair欄位</span> } <span class=\"hljs-keyword\">for</span> post <span class=\"hljs-keyword\">in</span> reddit.subreddit(<span class=\"hljs-string\">\"SUBREDDIT_NAME\"</span>).hot(limit=<span class=\"hljs-number\">20</span>): data[<span class=\"hljs-string\">'Title'</span>].append(post.title) data[<span class=\"hljs-string\">'Content'</span>].append(post.selftext) <span class=\"hljs-comment\"># 只添加圖片URL</span> <span class=\"hljs-keyword\">if</span> post.url.endswith((<span class=\"hljs-string\">'.jpg'</span>, <span class=\"hljs-string\">'.png'</span>)): data[<span class=\"hljs-string\">'Image URL'</span>].append(post.url) <span class=\"hljs-keyword\">else</span>: data[<span class=\"hljs-string\">'Image URL'</span>].append(<span class=\"hljs-literal\">None</span>)</p>\n<p>了解，Reddit 的 <code>permalink</code> 是帖子的相對URL。為了得到完整的URL，我們需要加上Reddit的基礎網址。以下是修正後的代碼：</p>",
+            "image": "https://gontue5959.github.io/TEST_WEB/media/posts/2/article-5850de3be54b4.jpg",
             "author": {
                 "name": "居米Jimmy"
             },
@@ -38,7 +40,7 @@
                    "關鍵分點週報"
             ],
             "date_published": "2023-04-04T20:52:00+08:00",
-            "date_modified": "2023-09-21T20:57:53+08:00"
+            "date_modified": "2023-09-21T21:13:39+08:00"
         }
     ]
 }
