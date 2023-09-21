@@ -1,0 +1,13 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "123",
+    "description": "",
+    "home_page_url": "https://gontue5959.github.io/TEST_WEB",
+    "feed_url": "https://gontue5959.github.io/TEST_WEB/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "555"
+    },
+    "items": [
+    ]
+}
